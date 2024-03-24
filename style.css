@@ -1,0 +1,16 @@
+.Homepage_Heading
+{
+    font-family: 'Inria Sans';
+    display: inline-flex; /* Learn about different display types to fix this */
+}
+
+#login-signup
+{
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    font-size: 15px;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+}

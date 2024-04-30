@@ -1,7 +1,24 @@
 .Homepage_Heading
 {
     font-family: 'Inria Sans';
-    display: inline-flex; /* Learn about different display types to fix this */
+    border: solid;
+    width: 100%;
+}
+
+h1{
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+h4{
+    display: inline-block;
+    margin-left: 5%;
+}
+
+#viewMode{
+    display: inline-block;
+    margin-left: 40%;
 }
 
 #login-signup
@@ -13,4 +30,7 @@
     border-radius: 4px;
     width: 100px;
     height: 40px;
+    box-sizing: border-box; /*This makes the button height and width account for the padding and border */
+    display: inline-block;
+    margin-left: 3%;
 }

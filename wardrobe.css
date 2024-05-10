@@ -1,0 +1,9 @@
+.homepage_heading
+{
+    border: solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:'Inria Sans';
+}

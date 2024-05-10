@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Outfit Picker: Never Try More than Once</title>
-    <link rel="stylesheet" href="style.css" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
-    </style>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <section class="Homepage_Heading">
+    <section class="homepage_heading">
       <h1>Outfit Picker</h1>
       <h4>
         <a href="wardrobe.html" ref="noopener noreferrer">Wardrobe</a>
@@ -27,18 +30,41 @@
       </button>
       <button id="login-signup">Login/Signup</button>
     </section>
-    <div>
-      <img src="./clothesimgs/Top 1lv.png" alt="Tops" />
 
-      <img src="./clothesimgs/pants 1essentials.png" alt="Bottoms" />
+    <section class="outfit">
+      <div class="tops_bar">
+        <button>
+          <img src="./clothesimgs/Go Backbackward.png" alt="Left" />
+        </button>
+        <img src="./clothesimgs/Top 1lv.png" alt="Tops" />
+        <button>
+          <img src="./clothesimgs/Forward Buttonforward.png" alt="Right" />
+        </button>
+      </div>
 
-      <img src="./clothesimgs/shoe 1yezz.png" alt="Shoes" />
-      <button>
-        <img src="./clothesimgs/Forward Buttonforward.png" alt="Right" />
-      </button>
-      <button>
-        <img src="./clothesimgs/Go Backbackward.png" alt="Left" />
-      </button>
-    </div>
+      <div class="bottoms_bar">
+        <button>
+          <img src="./clothesimgs/Go Backbackward.png" alt="Left" />
+        </button>
+        <img
+          class="tops"
+          src="./clothesimgs/pants 1essentials.png"
+          alt="Bottoms"
+        />
+        <button>
+          <img src="./clothesimgs/Forward Buttonforward.png" alt="Right" />
+        </button>
+      </div>
+
+      <div class="shoes_bar">
+        <button>
+          <img src="./clothesimgs/Go Backbackward.png" alt="Left" />
+        </button>
+        <img src="./clothesimgs/shoe 1yezz.png" alt="Shoes" />
+        <button>
+          <img src="./clothesimgs/Forward Buttonforward.png" alt="Right" />
+        </button>
+      </div>
+    </section>
   </body>
 </html>

@@ -12,9 +12,10 @@
       rel="stylesheet"
     />
   </head>
+  <script src="mainPage.js"></script>
   <body>
     <section class="homepage_heading">
-      <h1>Outfit Picker</h1>
+      <h1><a href="index.html" ref="noopener noreferrer">Outfit Picker</a></h1>
       <h4>
         <a href="wardrobe.html" ref="noopener noreferrer">Wardrobe</a>
       </h4>
@@ -25,8 +26,8 @@
         <a href="desires.html" ref="noopener noreferrer">Desires</a>
         <!--Use ./before your files to prevent issues and ../ to go back up one directory-->
       </h4>
-      <button id="viewMode">
-        <img src="./clothesimgs/SunDimlight.png" alt="Theme" />
+      <button onclick="changeTheme()">
+        <img id="viewMode" src="./clothesimgs/SunDimlight.png" alt="Theme" />
       </button>
       <button id="login-signup">Login/Signup</button>
     </section>
@@ -36,7 +37,11 @@
         <button>
           <img src="./clothesimgs/Go Backbackward.png" alt="Left" />
         </button>
-        <img src="./clothesimgs/Top 1lv.png" alt="Tops" />
+        <img
+          class="clothing_piece"
+          src="./clothesimgs/Top 1lv.png"
+          alt="Tops"
+        />
         <button>
           <img src="./clothesimgs/Forward Buttonforward.png" alt="Right" />
         </button>
@@ -47,7 +52,7 @@
           <img src="./clothesimgs/Go Backbackward.png" alt="Left" />
         </button>
         <img
-          class="tops"
+          class="clothing_piece"
           src="./clothesimgs/pants 1essentials.png"
           alt="Bottoms"
         />
@@ -60,7 +65,11 @@
         <button>
           <img src="./clothesimgs/Go Backbackward.png" alt="Left" />
         </button>
-        <img src="./clothesimgs/shoe 1yezz.png" alt="Shoes" />
+        <img
+          class="clothing_piece"
+          src="./clothesimgs/shoe 1yezz.png"
+          alt="Shoes"
+        />
         <button>
           <img src="./clothesimgs/Forward Buttonforward.png" alt="Right" />
         </button>

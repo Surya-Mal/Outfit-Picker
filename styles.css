@@ -1,0 +1,41 @@
+body{
+    background-color: #111111;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+h2{
+    text-align: center;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.main-function{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-function div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img{
+    height: 26vh;
+    width: 16vw;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

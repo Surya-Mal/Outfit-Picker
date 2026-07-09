@@ -1,37 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oufit Picker</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>Outfit Picker</h1>
-    <h2>Welcome to Outfit picker where you can choose how a outfit looks before putting it on without rummaging your wardrobe!</h2>
-    <div id="main-container">
-        <button>Add Clothing Piece</button>
-        <button>View Wardrobe</button>
-        <button>Remove Clothing Piece</button>
-    </div>
-    <div class="main-function">
-        <button>Randomize</button>
-        <div class="tops">
-            <button><</button>
-            <img src="images/08-10-2020_JB_731561520-V0029_1_1-3629086898.jpg" alt="sample-top">
-            <button>></button>
-        </div>
-        <div class="bottoms">
-            <button><</button>
-            <img src="images/goods_08_423553-2382376428.jpg" alt="sample-bottom">
-            <button>></button>
-        </div>
-        <div class="footwear">
-            <button><</button>
-            <img src="images/tom-sachs-nike-mars-yard-release-info-2-4005298878.jpg" alt="sample-shoes">
-            <button>></button>
-        </div>
-    </div>
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <!--Add website icon later on -->
+        <!-- IN the future if you use stock pictures might need think about licenseing, but for now taking pictures of own chlotes is fine as long as its not public website -->
+        <meta charset="utf-8" />
+        <meta name="author" content="Un Owen" />
+        <meta
+            name="description"
+            content="This website aims to allow users to have a digital way to making outfits and
+            storing their wardrobe online"
+        />
+        <title>Outfit Picker</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
 
-</body>
+    <body>
+        <header>
+            <h1>Outfit Picker</h1>
+            <button onclick="location.href='login.html'">Login</button>
+            <button>Theme</button>
+        </header>
+        <nav>
+            <ul>
+                <a href="wardrobe.html"><li>Wardrobe</li></a>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Tops</h2>
+            </section>
+            <section>
+                <h2>Bottoms</h2>
+            </section>
+            <section>
+                <h2>Shoes</h2>
+            </section>
+        </main>
+        <footer>
+            <h3>Outfit Picker</h3>
+        </footer>
+    </body>
 </html>

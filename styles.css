@@ -1,3 +1,102 @@
 body {
     background-color: #1a1a1a;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#index_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.section_heads{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+#header_btns{
+    position: absolute;
+    right: 1rem;
+}
+
+img{
+    border: 3px solid #42b883;
+    border-radius: 10%;
+    max-width: 200px;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+}
+
+#rand_btn{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-top: 50px;
+}
+
+footer h3{
+    text-align: center;
+}
+
+/*The reason why this takes up the whole space */
+footer section{
+    margin: auto;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+/*This covers the Login page CSS formats*/
+form{
+
+}
+
+#login_main h2{
+    text-align: center;
+}
+
+#login_main form div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#login_main form div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.25rem;
+    width: 300px;
+    align-items: stretch;
+}
+
+label{
+    width: 100%
+}
+
+#login_main form button{
+    margin-top: 0.5rem;
+}
+
+#signup_btn{
+    display: block;
+    margin: auto;
+    margin-top: 1.5rem;
 }

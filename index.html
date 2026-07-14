@@ -3,6 +3,7 @@
     <head>
         <!--Add website icon later on -->
         <!-- IN the future if you use stock pictures might need think about licenseing, but for now taking pictures of own chlotes is fine as long as its not public website -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
         <meta name="author" content="Un Owen" />
         <meta
@@ -16,28 +17,45 @@
 
     <body>
         <header>
-            <h1>Outfit Picker</h1>
-            <button onclick="location.href='login.html'">Login</button>
-            <button>Theme</button>
+            <a href="index.html"><h1>Outfit Picker</h1></a>
+            <div id="header_btns">
+                <button onclick="location.href='login.html'">Login</button>
+                <button>Theme</button>
+            </div>
         </header>
         <nav>
-            <ul>
-                <a href="wardrobe.html"><li>Wardrobe</li></a>
-            </ul>
+            <a href="wardrobe.html">Wardrobe</a>
         </nav>
-        <main>
+        <main id="index_main">
             <section>
-                <h2>Tops</h2>
+                <h2 class="section_heads">Tops</h2>
+                <div class="img_cards">
+                    <img src="images/08-10-2020_JB_731561520-V0029_1_1-3629086898.jpg"/>
+                    <img src="images/oversized shirt.jpg" />
+                </div>
             </section>
             <section>
-                <h2>Bottoms</h2>
+                <h2 class="section_heads">Bottoms</h2>
+                <div class="img_cards">
+                    <img src="images/goods_08_423553-2382376428.jpg" />
+                </div>
             </section>
             <section>
-                <h2>Shoes</h2>
+                <h2 class="section_heads">Shoes</h2>
+                <div class="img_cards">
+                    <img src="images/tom-sachs-nike-mars-yard-release-info-2-4005298878.jpg" />
+                </div>
             </section>
+            <button id="rand_btn">Randomize</button>
         </main>
         <footer>
             <h3>Outfit Picker</h3>
+            <section>
+                <!--Need to style the buttons as normal clickable texts and when clicked it shows a pop up window on the same page-->
+                <button>Website Information</button>
+                <button>Help</button>
+                <button>Contact</button>
+            </section>
         </footer>
     </body>
 </html>

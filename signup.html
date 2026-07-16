@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Un Owen" />
+        <meta
+            name="description"
+            content="The login page for the website"
+        />
+        <title>Outfit Picker Signup</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><h1>Outfit Picker</h1></a>
+            <div id="header_btns">
+                <button onclick="location.href='login.html'">Login</button>
+                <button>Theme</button>
+            </div>
+        </header>
+        <main id="login_main">
+            <form>
+                <h2>Signup</h2>
+                <div>
+                    <div>
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="username" required />
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required />
+                    </div>
+                    <div>
+                        <label for="password_retype">Retype Password</label>
+                        <input type="password" name="password_retype" id="password_retype" required />
+                        <button>Sign up</button>
+                    </div>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <h3>Outfit Picker</h3>
+            <section>
+                <!--Need to style the buttons as normal clickable texts and when clicked it shows a pop up window on the same page-->
+                <button>Website Information</button>
+                <button>Help</button>
+                <button>Contact</button>
+            </section>
+        </footer>
+    </body>
+</html>

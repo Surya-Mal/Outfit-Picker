@@ -8,35 +8,84 @@
             content="The wardrobe of the logged in user"
         />
         <title>Outfit Picker Wardrobe</title>
+        <link rel="stylesheet" href="styles.css" />
     </head>
-    <body>
+    <body id="wardrobe_body">
         <header>
-            <h1>Outfit Picker</h1>
-            <button>Login</button>
-            <button>Theme</button>
+            <a href="index.html"><h1>Outfit Picker</h1></a>
+            <div id="header_btns">
+                <button onclick="location.href='login.html'">Login</button>
+                <button>Theme</button>
+            </div>
         </header>
         <nav>
-            <ul>
-                <a href="index.html"><li>Pick Outfit</li></a>
-            </ul>
+            <a href="index.html">Pick Outfit</a>
         </nav>
-        <main>
-            <!--This will house all the clothes the user has, and contents should be added here dynamically not staticlly -->
-        </main>
         <aside>
             <!-- This is to be used for filters, adding an item, and removing items -->
             <form>
                 <h3>Filter</h3>
-                <label>Tops</label>
-                <input type="checkbox" name="filter_tops" id="filter_tops">
-                <label>Bottoms</label>
-                <input type="checkbox" name="filter_bottoms" id="filter_bottoms">
-                <label>Shoes</label>
-                <input type="checkbox" name="filter_shoes" id="filter_shoes">
+                <div>
+                    <input type="checkbox" name="filter_tops" id="filter_tops">
+                    <label>Tops</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="filter_bottoms" id="filter_bottoms">
+                    <label>Bottoms</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="filter_shoes" id="filter_shoes">
+                    <label>Shoes</label>
+                </div>
+                <button>Filter</button>
             </form>
 
             <button>Add Items</button>
             <button>Remove Items</button>
         </aside>
+        <main id="wardrobe_main">
+            <!--This will house all the clothes the user has, and contents should be added here dynamically not staticlly -->
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+            <img src="images/oversized shirt.jpg" />
+        </main>
+        <footer>
+            <h3>Outfit Picker</h3>
+            <section>
+                <!--Need to style the buttons as normal clickable texts and when clicked it shows a pop up window on the same page-->
+                <button>Website Information</button>
+                <button>Help</button>
+                <button>Contact</button>
+            </section>
+        </footer>
     </body>
 </html>
